@@ -39,3 +39,17 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 ```
+### Seção 2 - Primeiros Passos com Spring Security
+2.1 - Adicionar dependência "spring-security" e a "starter-web" \
+2.2 - Criar pacote "auth" com as 3 pastas dentro "application/domain/infra..." \
+2.3 - Criar classe "SecurityConfig" dentro de "infra..." \
+2.4 - Rodar e testar aplicação em http://localhost:8080/login \
+2.5 - Adicionar "@bean/PasswordEncoder" em "SecurityConfig" \
+2.6 - Criar pasta "http" classe "Controller" \
+2.7 - Testar a aplicação em http://localhost:8080/ pra ver se o controller está funcionando \
+2.8 - Adicionar anotação "@AuthenticationPrincipal" \
+2.9 - testar aplicação na url porta 8080 \
+2.10 - Adicionar anotação "@EnableMethodSecurity" \
+2.11 - Adicionar no "controller" metodos "influencerEndpoint" e "brandEndpoint" \
+2.12 - Testar aplicação em "localhost/8080/influencer" e "localhost/8080/brand" \
+--Feito Commit--
