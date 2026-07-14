@@ -53,3 +53,13 @@ tasks.named('test') {
 2.11 - Adicionar no "controller" metodos "influencerEndpoint" e "brandEndpoint" \
 2.12 - Testar aplicação em "localhost/8080/influencer" e "localhost/8080/brand" \
 --Feito Commit--
+### Seção 3 - Evoluindo a Autenticação
+3.1 - Alterar classe "security" adicionar ".csrf" \
+3.2 - Construir pacote "security" \
+3.3 - Criar classe "RestUsernamePasswordAuthenticationFilter" \
+3.4 - Testar aplicação \
+3.5 - Alterar classe "SecurityConfig" \
+3.6 - Deixar em comentário o "formLogin" \
+3.7 - Criar metodo "addFilterAt" \
+3.8 - Fazer POST e testar aplicação em http://localhost:8080 \
+--Feito Commit--
