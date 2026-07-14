@@ -63,3 +63,11 @@ tasks.named('test') {
 3.7 - Criar metodo "addFilterAt" \
 3.8 - Fazer POST e testar aplicação em http://localhost:8080 \
 --Feito Commit--
+### Segurança com Banco de Dados
+4.1 - Criar arquivo "compose.yml" subindo o banco de dados mysql \
+4.2 - Adicionar 3 dependências "docker-compose" / "starter-data-jpa" / "connector-j" \
+4.3 - Adicionar Plugin "lombok" \
+4.4 - Testar aplicação se subiu o container do mysql \
+4.5 - Testar se criou o banco de dados \
+4.6 - Adicionar configurações do banco de dados em "application.properties" \
+--Feito Commit-- \
