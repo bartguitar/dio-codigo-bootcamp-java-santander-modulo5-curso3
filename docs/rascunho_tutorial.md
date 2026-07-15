@@ -80,7 +80,17 @@ tasks.named('test') {
 4.13 - Criar método "initDatabase" \
 4.14 - Subir aplicação e testar POST/GET \
 4.15 - Alterar classe "Controller" no método "hello" \
-4.16 - Subir aplicação e testar POST/GET
-4.17 - Alterar classe "UserRole" colocando o prefixo antes do nome para padronizar para o spring
-4.18 - Alterar classe "SecurityConfig" para os novos nomes criados no item anterior
+4.16 - Subir aplicação e testar POST/GET \
+4.17 - Alterar classe "UserRole" colocando o prefixo antes do nome para padronizar para o spring \
+4.18 - Alterar classe "SecurityConfig" para os novos nomes criados no item anterior \
+--Feito Commit--
+### Seção 5 - Segurança Baseada em Papéis
+5.1 - Criar o módulo "proposal" e pacotes "application"/"domain"/"infrastructure" \
+5.2 - Criar classe de domínio "Proposal" e classe record "ProposalId" \
+5.3 - Criar classe record "Owner" e classe record "OwnerId" \
+5.4 - Criar classe interface "ProposalRepository" \
+5.5 - Criar classe "CreateProposalUseCase" \
+5.6 - Criar pacote "input" e classe record "CreateProposalInput" \
+5.7 - Criar método "toDomain" \
+5.8 - Criar pacote "output" e classe record "ProposalOutput" \
 --Feito Commit--
