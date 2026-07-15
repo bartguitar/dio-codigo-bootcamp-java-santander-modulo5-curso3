@@ -108,3 +108,9 @@ tasks.named('test') {
 7.3 - Criar classe interface "ProposalEntityRepository" \
 7.4 - Criar classe "JpaProposalRepository" \
 --Feito Commit--
+### Seção 8 - Implementando o ProposalController
+8.1 - Criar pacote "http" e criar classe "ProposalController" \
+8.2 - Criar pacote "request" e classe record "CreateProposalRequest" \
+8.3 - Criar pacote "response" e classe record "ProposalResponse" \
+8.4 - Testar aplicação POST/GET \
+--Feito Commit--
