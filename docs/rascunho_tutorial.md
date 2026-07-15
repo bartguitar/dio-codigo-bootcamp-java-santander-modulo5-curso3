@@ -94,3 +94,11 @@ tasks.named('test') {
 5.7 - Criar método "toDomain" \
 5.8 - Criar pacote "output" e classe record "ProposalOutput" \
 --Feito Commit--
+### Seção 6 - Implementando o Use Case de Listagem
+6.1 - Criar classe "ListProposalsUseCase" \
+6.2 - Criar pacote "list" \
+6.3 - Criar classe enum "AccessScope" \
+6.4 - Criar classe interface "Strategy" \
+6.5 - Criar classe "OwnStrategy"/"AllStrategy"/"Factory" \
+6.6 - Terminar de implementar classe "ListProposalsUseCase" \
+--Feito Commit--
