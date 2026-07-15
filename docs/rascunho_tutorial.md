@@ -71,3 +71,16 @@ tasks.named('test') {
 4.5 - Testar se criou o banco de dados \
 4.6 - Adicionar configurações do banco de dados em "application.properties" \
 --Feito Commit-- \
+4.7 - Criar primeira entidade pacote "persistence/entity" entidade "User" \
+4.8 - Criar classe enum "UserRole" dentro de "domain" \
+4.9 - Testar Aplicação \
+4.10 - Criar pacote "repository" e classe interface "UserRepository" \
+4.11 - Criar classe "JpaUserDetailsService" \
+4.12 - Excluir método "userDetailsService" da classe "SecurityConfig" \
+4.13 - Criar método "initDatabase" \
+4.14 - Subir aplicação e testar POST/GET \
+4.15 - Alterar classe "Controller" no método "hello" \
+4.16 - Subir aplicação e testar POST/GET
+4.17 - Alterar classe "UserRole" colocando o prefixo antes do nome para padronizar para o spring
+4.18 - Alterar classe "SecurityConfig" para os novos nomes criados no item anterior
+--Feito Commit--
