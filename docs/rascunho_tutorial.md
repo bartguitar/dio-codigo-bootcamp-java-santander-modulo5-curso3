@@ -102,3 +102,9 @@ tasks.named('test') {
 6.5 - Criar classe "OwnStrategy"/"AllStrategy"/"Factory" \
 6.6 - Terminar de implementar classe "ListProposalsUseCase" \
 --Feito Commit--
+### Seção 7 - Criando Entidades de Persistência
+7.1 - Criar pacote "infra.../persistence" e pacotes "entity"/"repository" \
+7.2 - Criar classe "ProposalEntity" \
+7.3 - Criar classe interface "ProposalEntityRepository" \
+7.4 - Criar classe "JpaProposalRepository" \
+--Feito Commit--
